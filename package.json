@@ -1,0 +1,45 @@
+{
+  "name": "quien-es",
+  "version": "1.0.0",
+  "description": "¿Quién es el personaje?",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.0",
+    "@babel/preset-react": "^7.9.4",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.4.2",
+    "postcss": "^7.0.27",
+    "style-loader": "^1.1.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postcss": "postcss src/styles.css -o public/css/styles.min.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ateszki/quien-es.git"
+  },
+  "keywords": [
+    "juego",
+    "game",
+    "personajes",
+    "trivia"
+  ],
+  "author": "Andrés Teszkiewicz <ateszki@gmail.com> ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ateszki/quien-es/issues"
+  },
+  "homepage": "https://github.com/ateszki/quien-es#readme"
+}
