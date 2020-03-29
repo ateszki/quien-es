@@ -9,8 +9,8 @@ const tailwindcss = require('tailwindcss');
               ],
               defaultExtractor: content => content.match(/[A-Za-z0-9-_:/]+/g) || []
             }),
-        process.env.NODE_ENV === 'production' &&  require('cssnano')({
+        /*process.env.NODE_ENV === 'production' &&  require('cssnano')({
             preset: 'default',
-        }),
+        }),*/
      ],
  };
